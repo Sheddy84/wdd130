@@ -1,0 +1,7 @@
+Colors: https://coolors.co/palette/3066be-51e5ff-ffffff-d14081-191919
+
+3066be true blue
+
+51e5ff sky blue crayola
+
+ffffff white
