@@ -48,7 +48,7 @@ main {
 header {
     background-color: blue;
     margin-bottom: 200px;
-    max-width: 1600px;
+    width: auto;
 }
 
 body {
