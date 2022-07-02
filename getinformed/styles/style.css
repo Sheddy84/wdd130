@@ -1,0 +1,30 @@
+#background {
+}
+.logo { 
+justify-self: left;
+align-self: left;
+height: 25px;
+width: 25px;
+}
+nav {
+display: flex;
+justify-content: space-evenly;
+padding-left:300px;
+}
+.card {
+display: flex;
+justify-content:space-around;
+padding-top: 500px;
+padding-left: 100px;
+height: 250px;
+width: 250px;
+}
+.msg h1 {
+display: flex;
+justify-content:center; 
+padding: 50px;
+}
+.msg p {
+display: flex;
+justify-content:center; 
+}
