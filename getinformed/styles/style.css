@@ -38,17 +38,18 @@ justify-content:center;
 padding: 50px;
 }
 
+.msg p:nth-of-type(1),.msg p:nth-of-type(2),.msg p:nth-of-type(3) {
+    text-align: center;
+} 
+
 .msg p {
 display: flex;
 justify-content:center; 
+padding-bottom: 2em;
 }
 
-topic { 
-display: flex;
-justify-content:center;
-
-height: 250px;
-width: 250px;
+.topic { 
+padding-bottom:10em;
 }
 
 nav a:hover {
@@ -61,6 +62,7 @@ font-family: 'Helvetica', 'Arial', 'sans-serif';
 font-size: 22px;
 margin: 0;
 padding: 0;
+
 }
 .card-img4 {
 display: flex-start;
