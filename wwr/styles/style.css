@@ -9,14 +9,18 @@
     margin-top: 10px;
  }
 .home-grid {
-    display: grid;
+display: grid;
     grid-template-columns: 10fr; 
+
 }    
 #content {
     max-width: 1600px;
     text-align: center;
     margin: 0 auto;
 }
+
+#date-msg 
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -78,14 +82,14 @@ main {
 #hero-msg h4 {
     color: black;
 }
+
 header {
     background-color: blue;
     margin-bottom: 200px;
     display: grid;
     grid-template-columns: 150px auto;
-    
-   
 }
+
 body {
     background-color: yellow;
     font-family: 'Helvetica', 'Arial', 'sans-serif';
@@ -93,6 +97,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .book, .join  {
     background-color: blue;
     text-decoration: none;
@@ -104,6 +109,7 @@ body {
     border-radius: 10px;
     border-color: black;
 }
+
 .msg {
     background-color: white;
     line-height: 1.5em;
@@ -190,13 +196,10 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-
-
 .p5 {
     font-weight: 700;
 	font-size: 30px;
 	line-height: 1.2;
-
 }
 
 @media screen and (max-width: 900px) {
