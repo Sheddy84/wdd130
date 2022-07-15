@@ -1,155 +1,39 @@
- {
-margin: 10px;
-padding: 10px;
-font-family: ; 
-}
-
-content {
-display: grid;
-grid-template-columns: 20% 20% 20% 20% 20%;
-grid-template-rows: 20% 20% 20% 20% 20%;  
-}
-
-.logo { 
-padding-top: 50px;
-padding-left: 500px;
-display: flex;
-justify-self: center;
-height: 100px;
-width: 100px;
-}
-
-nav {
-padding-bottom: 2em;
-padding-top: 0;
-display: flex;
-justify-content: space-evenly;
-padding-left:300px;
-padding-top: -5em;
-}
-
-.foot {
-margin-top: 100px;
-
-}
-.card-img {
-grid-column: 1/2;
-grid-row: 1/2;
-box-shadow: px px #6f7364;
-}
-
-.card-img2 {
-grid-column: 2/3;
-grid-row: 1/2;
-box-shadow: px px #6f7364;
-}
-
-.card-img3 {
-grid-column: 3/4;
-grid-row: 1/2;
-box-shadow: px px #6f7364;
-}
-
-#date-msg {
-align-content: center;
-justify-content: center;
-}
-
-.title {
-display: flex;
-justify-content:center; 
-padding: 50px;
-}
-
-.msg h1 {
-display: flex;
-justify-content:center; 
-padding: 50px;
-}
-
-.msg p:nth-of-type(1),.msg p:nth-of-type(2),.msg p:nth-of-type(3) {
+#content {
+max-width: 1600px;
 text-align: center;
-} 
-
-.topic-grid {
-display: ;    
-align-content: center;
-justify-content: center;
+margin: 0 auto;    
+grid-template-columns: ;
+grid-template-rows: ;  
 }
 
-.msg p {
-display: flex;
-justify-content:center; 
-padding-bottom: 2em;
-}
-
-.topic { 
-padding-bottom:50px;
-margin-left: 25px;
-}
-
-nav a:hover {
-background-color: white;
-border-radius: 1px;
-}
-
-body {
+.body {
 background-color: white;
 font-family: 'Helvetica', 'Arial', 'sans-serif';
-font-size: 22px;
+font-size: 30px;
 margin: ;
 padding: ;
 }
 
-.topic-home {
-grid-template-columns: 33% 34% 33%;
-grid-template-rows: 100%;
-}
-
-.topic-la
-.card-img4 {
-grid-column: 1/2;
-grid-row: 1/2;
-box-shadow: px px #6f7364;
-}
-
-.card-img5 {
-grid-column: 3/4;
-grid-row: 1/2;
-box-shadow: px px #6f7364;
-}
-
-.issue {
+.logo { 
+padding-top: 0px;
+padding-left: 50px;
 display: flex;
-
-height: 400px;
-box-shadow: 5px 5px px #6f7364;
-padding: 100px;
-}
-
-.afg-card, .covid-card,.money-card, .court-card, .baby-card, .all-topics {
-display: flex;
-justify-content: space-evenly;
-height: 400px;
-box-shadow: 5px 5px px #6f7364;
-padding: 100px;
-}
-
-.card-img5 {
-display: flex-end;
-justify-content:right;
+justify-self: left;
 height: 100px;
-width: 100px;
-box-shadow: px px #6f7364;
+width: 100%;
 }
 
-.all-topics {
+.nav {
+padding-bottom: 2em;
+padding-top: 0;
 display: flex;
-justify-content: center;
-align-items:center;
+align-items: center;
+justify-content: space-evenly;
+width: ;
 }
+
 .nav-link {
-display:flex-row;
+display:flex;
 justify-content: space-evenly;
 padding:10px;
 font-style:bold;
@@ -159,7 +43,7 @@ font-style:bold;
 overflow: hidden;
 background-color: #e9e9e9;
 }
-  
+ 
 .topnav a {
 float: left;
 display: block;
@@ -169,28 +53,28 @@ padding: 14px 16px;
 text-decoration: none;
 font-size: 17px;
 }
-  
+      
 .topnav a:hover {
 background-color: #ddd;
 color: black;
 }
-  
+      
 .topnav a.active {
 background-color: #2196F3;
 color: white;
 }
-  
+      
 .topnav .search-container {
 float: right;
 }
-  
+      
 .topnav input[type=text] {
 padding: 6px;
 margin-top: 8px;
 font-size: 17px;
 border: none;
 }
-  
+      
 .topnav .search-container button {
 float: right;
 padding: 6px 10px;
@@ -201,38 +85,163 @@ font-size: 17px;
 border: none;
 cursor: pointer;
 }
-  
+      
 .topnav .search-container button:hover {
 background: #ccc;
 }
+   
+.title {
+display: flex;
+justify-content:center; 
+font-size: 2em;
+padding: 50px;
+}
+
+.home-grid {
+grid-template-columns: 33% 34% 33%;
+grid-template-rows: 100%;
+}
+
+.card {
+display: inline;
+justify-content: space-around;
+align-content: center;
+justify-items: center; 
+height: 300px;
+width: 300px;
+box-shadow: 5px 5px px #6f7364;
+padding: 650px;
+}
+
+.card-img {
+justify-content: space-around;
+align-content: center;
+justify-items: center;     
+height: 200px;
+width: 200px;
+box-shadow: 5px 5px #6f7364;
+padding: px;
+}
+
+.card-img2 {
+justify-content: space-around;
+align-content: center;
+justify-items: center;    
+height: 200px;
+width: 200px;
+box-shadow: 5px 5px #6f7364;
+padding-left: 200px;
+padding-right: 200px;
+}
+
+.card-img3 {
+justify-content: space-around;
+align-content: center;
+justify-items: center;     
+height: 200px;
+width: 200px;
+box-shadow: 5px 5px #6f7364;
+padding: px;
+}
+
+.msg h1 {
+display: flex;
+justify-content:center; 
+padding: 50px;
+font-size: 2em;
+}
   
-.content-img {
+.msg p {
+display: flex;
+justify-content:center; 
+padding-bottom: 2em;
+font-size: 30px;
+font-style:bold;
+}
+
+.msg p:nth-of-type(1),.msg p:nth-of-type(2),.msg p:nth-of-type(3) {
+text-align: center;
+} 
+
+.layout {
+
+}
+
+.foot {
+margin-top: 100px;
+margin-bottom: 0;
+align-items: left;
+}
+
+.social {
+
+}
+
+date-msg {
+align-content: center;
+justify-content: center;
+}
+
+.date, .topic {
+display: ;
+justify-content: center;
+justify-items: center;
+align-content: center;
+}
+
+.topic { 
+padding-bottom:50px;
+margin-left: 25px;
+font-size: 3em;
+}
+
+.date {
+color: blue;
+padding-top: 2em;
+}
+
+.issue {
+display: flex;
+height: 400px;
+box-shadow: 5px 5px px #6f7364;
+padding: 100px;
+}
+
+.data-card, .left-card, .right-card, .references {
+align-content: ;
+justify-content: ;
+padding: 100px;    
+}
+
+.topic-grid {
+display: ;    
+align-content: center;
+justify-content: center;
+}
+
+.all-topics {
+display: flex;
+justify-content: center;
+align-items:center;
+padding-top: -1em;
+font-size: 2em;
+}
+    
+.afg-card, .covid-card, .money-card, .court-card, .baby-card, .all-topics {
+display: flex;
+justify-content: space-around;
+height: 500px;
+box-shadow: 5px 5px px #6f7364;
+padding: 0px;
+}
+
+
+.issue-img {
 display: flex;
 justify-content:center;
 height: 500px;
 width: 500px;
 box-shadow: 5px 10px #6f7364;
-}
-
-.date, .topic {
-display: flex;
-justify-content: center;
-justify-items: center;
-}
-
-.data-card, .left-card, .right-card, .references {
-align-content: center;
-justify-content: center;
-padding: 100px;    
-}
-
-
-topic {
-display: flex;
-justify-content:center;
-padding-top: 50px;
-padding-bottom: 100px;
-margin-left: 50px;
 }
 
 @media screen and (max-width: 600px) {

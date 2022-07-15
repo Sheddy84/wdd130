@@ -3,28 +3,29 @@
     justify-self: center;
     align-self: center;
     }
+    
 .home-title {
     font-family: 'Papyrus', 'verdana', sans-serif;
     font-size: 2em;
     margin-top: 10px;
  }
+
 .home-grid {
 display: grid;
     grid-template-columns: 10fr; 
-
 }    
+
 #content {
     max-width: 1600px;
     text-align: center;
     margin: 0 auto;
 }
 
-#date-msg 
-
 nav {
     display: flex;
     justify-content: space-around;
     padding: 3em;
+
 }
 nav a {
     display: flex; 
