@@ -193,12 +193,13 @@ align-content: center;
 .topic { 
 padding-bottom:50px;
 margin-left: 25px;
-font-size: 3em;
+font-size: 5em;
 }
 
 .date {
 color: blue;
 padding-top: 2em;
+font-size: 1.5em;
 }
 
 .issue {
@@ -208,14 +209,15 @@ height: 400px;
 box-shadow: 10px 10px px #6f7364;
 padding: 50px;
 padding-bottom: 150px;
-padding-left: 250px;
+padding-left: 350px;
 }
 
-.data-card, .left-card, .right-card, .references {
-align-content: ;
-justify-content: ;
+.data-card, .left-card, .right-card, .references-card {
+align-content: left;
+justify-content: left;
 padding: 100px;    
 }
+
 
 .topic-grid {
 display: ;    
